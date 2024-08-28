@@ -1,0 +1,105 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 650px;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se alineen verticalmente */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 20px; /* Espacio después del título */
+}
+
+textarea {
+    flex: 1 1 auto; /* Flexibilidad para ajustarse al espacio disponible */
+    min-width: 500px; /* Mínimo ancho posible */
+    max-width: 1000px; /* Máximo ancho posible ajustado para coherencia */
+    height: 150px;
+    margin: 10px; /* Espacio alrededor de las cajas de texto */
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0; /* Fondo claro para inputText */
+    color: #333333; /* Color de texto oscuro para contraste */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#outputText {
+    background-color: #0348c7; /* Fondo diferente para outputText */
+    color: #a6ff00; /* Color de texto diferente */
+}
+
+.button-area {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px; /* Espacio entre la caja de texto superior y los botones */
+    margin-bottom: 20px; /* Espacio entre los botones y la caja de texto inferior */
+    width: 100%; /* Asegura que los botones no se salgan del contenedor */
+}
+
+.custom-button {
+    background-color: #006683;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.custom-button:hover {
+    background-color: #21a1f1;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.footer-text {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
